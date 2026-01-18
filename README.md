@@ -1,42 +1,21 @@
-# CampusPilot 2.0
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-A modern campus management platform built with React, TypeScript, and Vite.
+# Run and deploy your AI Studio app
 
-## Getting Started
+This contains everything you need to run your app locally.
 
-### Install Dependencies
-```bash
-npm install
-```
+View your app in AI Studio: https://ai.studio/apps/drive/11VgXUbE6EgwzX_JxEk_d9fHxRbwsvzLC
 
-### Run Development Server
-```bash
-npm run dev
-```
+## Run Locally
 
-### Build for Production
-```bash
-npm run build
-```
+**Prerequisites:**  Node.js
 
-### Preview Production Build
-```bash
-npm run preview
-```
 
-## Project Structure
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
 
-```
-src/
-├── main.tsx          # Entry point
-├── App.tsx           # Main component
-├── index.css         # Global styles
-└── components/       # Reusable components
-```
-
-## Technologies
-
-- React 18
-- TypeScript
-- Vite
-- Lucide React (Icons)
